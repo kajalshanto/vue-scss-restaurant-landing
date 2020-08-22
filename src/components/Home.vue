@@ -1,18 +1,21 @@
 <template>
     <div id="home">
         <Header/>
-        <h1>Hello from Home</h1>
+        <Hero/>
     </div>
 </template>
 
 <script>
 import Header from './Header'
+import Hero from './Hero'
+
 
     export default {
         name: 'Home',
 
         components: {
             Header, 
+            Hero,
         }
     }
 </script>
