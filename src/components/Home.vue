@@ -3,8 +3,8 @@
         <Header/>
         <Hero/>
         <About/>
-        <Dishes/>
-
+        <Dishes/> 
+        <Menu/>
     </div>
 </template>
 
@@ -13,6 +13,8 @@ import Header from './Header'
 import Hero from './Hero'
 import About from './About'
 import Dishes from './Dishes'
+import Menu from './FoodMenu'
+
 
 
 
@@ -24,7 +26,8 @@ import Dishes from './Dishes'
             Header, 
             Hero,
             About,
-            Dishes
+            Dishes,
+            Menu
         }
     }
 </script>

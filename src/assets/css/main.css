@@ -21,11 +21,10 @@ p {
   color: #999;
   line-height: 28px;
   max-width: 800px;
-  text-transform: capitalize;
   margin-bottom: 40px;
 }
 
-.section-title {
+.hero-title {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 700;
@@ -33,8 +32,24 @@ p {
   margin-bottom: 50px;
 }
 
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.section-p {
+  margin: 0 auto;
+}
+
 .title-span {
   color: #ff0000;
+}
+
+.text-white {
+  color: #fff !important;
 }
 
 .small-title {
@@ -47,6 +62,32 @@ p {
 .samll-p {
   font-size: 16px;
   color: #fff;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.price {
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .btn-custom {
@@ -76,6 +117,11 @@ p {
   background-color: #fff;
 }
 
+.btn-primary-border:focus, .btn-primary-border:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .btn-white-border {
   color: #ff0000;
   background-color: #fff;
@@ -86,6 +132,11 @@ p {
 .btn-white-border:hover {
   color: #fff;
   background-color: #ff0000;
+}
+
+.btn-white-border:focus, .btn-white-border:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 #header .container-fluid,
@@ -130,6 +181,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 30px;
 }
 
 .hero-slider {
@@ -160,4 +212,47 @@ p {
 
 .about-content .about-right {
   padding: 70px 40px 0 40px;
+}
+
+#dishes {
+  overflow: hidden;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.section-title-content {
+  margin: 0 auto;
+}
+
+.featured-item {
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 0 0 35px 0;
+  margin: 8px 8px 30px 8px;
+}
+
+.featured-item img {
+  vertical-align: middle;
+}
+
+.featured-item .title {
+  margin-top: -90px;
+}
+
+#menu {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/cover/dishes-menu-section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
+}
+
+.section-title-content .section-title.white,
+.section-title-content .section-p.white {
+  color: white;
 }

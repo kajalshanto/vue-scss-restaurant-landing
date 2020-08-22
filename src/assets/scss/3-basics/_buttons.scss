@@ -24,6 +24,12 @@
         color: $theme-secondary-color;
         background-color: $font-white;
     }
+
+    &:focus,
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
 }
 
 .btn-white-border {
@@ -35,5 +41,11 @@
     &:hover {
         color: $font-white;
         background-color: $theme-secondary-color;
+    }
+
+    &:focus,
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
     }
 }
