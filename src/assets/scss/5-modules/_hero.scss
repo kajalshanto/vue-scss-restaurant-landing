@@ -1,0 +1,16 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/cover/cover-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-slider {
+    padding-top: 15%;
+
+    &-content {
+        text-align: left;
+    }
+}

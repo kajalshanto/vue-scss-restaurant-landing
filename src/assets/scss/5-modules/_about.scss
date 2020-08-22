@@ -1,0 +1,23 @@
+#about {
+    overflow: hidden;
+
+    .container-fluid {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+.about-content {
+    background-color: $theme-secondary-color;
+
+    .about-left {
+        img {
+            width: 100%;
+            min-height: 500px;
+        }
+    }
+
+    .about-right {
+        padding: 70px 40px 0 40px;
+    }
+}

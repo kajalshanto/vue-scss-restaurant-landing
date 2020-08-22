@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: $font-secondary;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 26px;
+    color: $font-lite-dark;
+    line-height: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: $font-secondary;
+    line-height: 28px;
+    max-width: 800px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-family: $secondary-font;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.title-span {
+    color: $theme-secondary-color;
+}
+
+.small-title {
+    font-size: 32px;
+    line-height: 45px;
+    color: $font-white;
+    font-weight: 600;
+}
+
+.samll-p {
+    font-size: 16px;
+    color: $font-white;
+}

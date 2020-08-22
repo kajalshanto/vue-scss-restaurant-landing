@@ -1,50 +1,37 @@
-body {
-    font-family: 'Lato', sans-serif;
-    // color: #000;
-}
+// this is the single file output by scss. It is intended to ONLY @import files
 
-#home {
-    min-height: 1200px;
-}
+// 1 - HELPERS
+@import '1-helpers/variables';
+@import '1-helpers/functions';
+@import '1-helpers/mixins';
 
-#header {
+// 2 - TOOLS 
+@import '2-tools/smooth';
 
-    .container-fluid,
-    .container {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-    }
-}
+// 3 - BASICS
+//@import '3-basics/reset';
+@import '3-basics/typography';
+@import '3-basics/base';
+@import '3-basics/buttons';
 
-.navbar {
-    border-top: 5px solid red;
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+// 4 - LAYOUTS  { using over and over again like: nav and footer } 
+@import '4-layouts/navbar';
+@import '4-layouts/footer';
+@import '4-layouts/searchbar';
 
-    .navbar-brand {
-        width: 100px;
-    }
+// 5 - MODULES { small reusing code in class }
+@import '5-modules/hero';
+@import '5-modules/about';
+@import '5-modules/featured_dishes';
 
-    .navbar-nav {
-        .nav-item {
-            padding-right: 18px;
-            transition: .3s ease;
 
-            &:last-child {
-                padding-right: 0px;
-            }
 
-            &:hover {
-                .nav-link {
-                    color: red;
-                }
-            }
 
-            .nav-link {
-                font-size: 14px;
-                color: #333;
-                font-weight: 600;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
+// 6 - PAGES {This is single paeg so empty this section}
+
+//7 - RESPONSIVES
+@import '7-responsive/small';
+@import '7-responsive/mobile';
+@import '7-responsive/tab';
+@import '7-responsive/laptop';
+@import '7-responsive/desktop';

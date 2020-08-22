@@ -11,7 +11,7 @@
                                     We aslo make delicious <strong>Fast-Food items and
                                         Cake & Pastry</strong> too. Free delivery is available around dhaka :)
                                 </p>
-                                <a href="#reservation" data-scroll class="btn btn-custom btn-border">order
+                                <a href="#reservation" data-scroll class="btn btn-custom btn-primary-border">order
                                     now</a>
                         </div>
                     </div>

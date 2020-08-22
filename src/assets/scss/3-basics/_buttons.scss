@@ -1,0 +1,39 @@
+.btn-custom {
+    // font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 7px 30px;
+    line-height: 24px;
+    outline: none;
+    height: 40px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary-border {
+    color: $font-white;
+    background-color: $theme-secondary-color;
+    border: 1px solid $theme-secondary-color;
+
+    &:hover {
+        color: $theme-secondary-color;
+        background-color: $font-white;
+    }
+}
+
+.btn-white-border {
+    color: $theme-secondary-color;
+    background-color: $font-white;
+    border: 1px solid $font-white;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        color: $font-white;
+        background-color: $theme-secondary-color;
+    }
+}

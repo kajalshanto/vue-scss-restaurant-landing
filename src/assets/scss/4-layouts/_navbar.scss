@@ -1,0 +1,41 @@
+#header {
+
+    .container-fluid,
+    .container {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+.navbar {
+    border-top: 5px solid red;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+
+    .navbar-brand {
+        width: 100px;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            padding-right: 18px;
+            transition: all 0.3s ease 0s;
+
+            &:last-child {
+                padding-right: 0px;
+            }
+
+            &:hover {
+                .nav-link {
+                    color: red;
+                }
+            }
+
+            .nav-link {
+                font-size: 14px;
+                color: #333;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

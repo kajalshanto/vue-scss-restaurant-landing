@@ -1,9 +1,25 @@
 //Font famiy used:
 
-font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'Russo One', sans-serif;
+$primary-font: 'Lato',
+sans-serif;
+
+$secondary-font: 'Poppins',
+sans-serif;
+
+$third-font: 'Roboto Slab',
+serif;
+
+$style-font: 'Russo One',
+sans-serif;
+
+
+$theme-primary-color: #e54c2a;
+$theme-secondary-color: #ff0000;
+
+$font-primary: #333;
+$font-secondary: #999;
+$font-lite-dark: #3e3e3e;
+$font-white: #fff;
 
 
 

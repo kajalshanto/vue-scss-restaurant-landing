@@ -5,7 +5,7 @@
 				<nav class="navbar navbar-expand-lg navbar-light bg-custom text-black">
 					<div class="container">
 					<a class="navbar-brand" href="/">
-                        <img class="img-fluid" :src="require('../assets/images/restaurant-logo.png')" alt="Stack House" /> 
+                        <img class="img-fluid" :src="require('../assets/images/logo/restaurant-logo.png')" alt="Stack House" /> 
                     </a>
 					<ul class="navbar-nav ml-auto mt-2 pr-2 d-md-block d-lg-none"> 
 						<li class="nav-item pt-1">
