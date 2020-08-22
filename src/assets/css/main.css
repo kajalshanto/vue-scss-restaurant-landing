@@ -1,3 +1,45 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 #home {
   min-height: 1200px;
+}
+
+#header .container-fluid,
+#header .container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar {
+  border-top: 5px solid red;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-brand {
+  width: 100px;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding-right: 18px;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+  padding-right: 0px;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+  color: red;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
 }

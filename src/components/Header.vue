@@ -1,11 +1,17 @@
 <template>
 	<div id="header">
 		<header>
-			<div class="container">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light text-black">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light bg-custom text-black">
+					<div class="container">
 					<a class="navbar-brand" href="/">
                         <img class="img-fluid" :src="require('../assets/images/restaurant-logo.png')" alt="Stack House" /> 
                     </a>
+					<ul class="navbar-nav ml-auto mt-2 pr-2 d-md-block d-lg-none"> 
+						<li class="nav-item pt-1">
+							<MdSearchIcon w="30px" h="26px"/>                             
+						</li> 
+					</ul>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -23,11 +29,11 @@
 						id="navbarTogglerDemo02"
 					>
 						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-							<li class="nav-item active" v-for="item in navItem" :key="item.li">
+							<li class="nav-item" v-for="item in navItem" :key="item.li">
 								<a class="nav-link" :href="`#${item.id}`">{{ item.li }}</a>
 							</li> 
-							<li class="nav-item pt-2">
-                               <MdSearchIcon w="30px" h="30px"/>                             
+							<li class="nav-item pt-1 d-lg-block d-md-none d-none">
+                               <MdSearchIcon w="30px" h="26px"/>                             
 							</li>
                             <!-- Search-box -->
                             <!-- <form class="form-inline my-2 my-lg-0">
@@ -38,6 +44,7 @@
 									/>
 								</form> -->
 						</ul>
+					</div>
 					</div>
 				</nav>
 			</div>
@@ -70,4 +77,6 @@ import MdSearchIcon from 'vue-ionicons/dist/md-search.vue'
 	};
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

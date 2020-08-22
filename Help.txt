@@ -12,38 +12,3 @@ font-family: 'Russo One', sans-serif;
 
 
 
-
-
-
-
-
-
-
-<div class="brand-logo float-left">
-                            <img src="/src/assets/images/restaurant-logo.png" alt="stack house">
-                        </div>
-                        <!-- Main Menu -->
-                        <div class="float-right">
-                            <nav class="main-menu single-page text-black">
-                                <ul>
-                                    <li class="active"><a href="#res-home">Home</a></li>
-                                    <li><a href="#res-about">About</a></li>
-                                    <li><a href="#res-menu">Menu</a></li>
-                                    <li><a href="#res-gallery">Gallery</a></li>
-                                    <li><a href="#res-reservation">Reservation</a></li>
-                                    <li><a href="#res-contact">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!--/. Main Menu -->
-                        <div class="header-search">
-                            <button class="search-toggle top-search text-black"><i
-                                    class="ion-android-search"></i>
-                            </button>
-                            <!-- <div class="header-search-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Search">
-                                    <button><i class="ion-android-search"></i></button>
-                                </form>
-                            </div> -->
-                        </div>
