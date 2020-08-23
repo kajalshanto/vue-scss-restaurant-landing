@@ -64,9 +64,9 @@ import MdArrowRoundForwardIcon from 'vue-ionicons/dist/md-arrow-round-forward.vu
 		data(){
 			return{
 				featuredItems:[
-					{id: 1, img: '1.jpg', title: 'Mashroom Noddles', price: '250'},
-					{id: 2, img: '2.jpg', title: 'Egg Noddles', price: '350'},
-					{id: 3, img: '3.jpg', title: 'Beef Noddles', price: '550'},
+					{id: 1, img: 'steak-1.png', title: 'Mashroom Noddles', price: '250'},
+					{id: 2, img: 'steak-2.png', title: 'Egg Noddles', price: '350'},
+					{id: 3, img: 'steak-3.png', title: 'Beef Noddles', price: '550'},
 				]
 			}
 		}

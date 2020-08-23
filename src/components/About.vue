@@ -8,7 +8,7 @@
 							<img
 								class="img-fluid"
 								:src="
-									require('../assets/images/about/2.jpg')
+									require('../assets/images/about/about-menu.jpg')
 								"
 								alt="Stack House"
 							/>
