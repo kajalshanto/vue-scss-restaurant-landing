@@ -53,8 +53,8 @@ p {
 }
 
 .small-title {
-  font-size: 32px;
-  line-height: 45px;
+  font-size: 22px;
+  line-height: 42px;
   color: #fff;
   font-weight: 600;
 }
@@ -65,11 +65,15 @@ p {
 }
 
 .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .price {
   font-family: "Russo One", sans-serif;
+  font-size: 22px;
   font-weight: 500;
   color: #ff0000;
 }
@@ -150,7 +154,7 @@ p {
 }
 
 .navbar {
-  border-top: 5px solid red;
+  border-top: 5px solid #ff0000;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
 }
 
@@ -168,13 +172,13 @@ p {
 }
 
 .navbar .navbar-nav .nav-item:hover .nav-link {
-  color: red;
+  color: #ff0000;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
   font-size: 14px;
-  color: #333;
   font-weight: 600;
+  color: #333;
   text-transform: uppercase;
 }
 
@@ -231,11 +235,11 @@ p {
 }
 
 .featured-item {
-  border-radius: 10px;
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
   position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
   padding: 0 0 35px 0;
-  margin: 8px 8px 30px 8px;
+  margin: 4px 4px 30px 4px;
 }
 
 .featured-item img {
@@ -255,6 +259,7 @@ p {
   background-position: left top;
 }
 
+/* ---- section title Area ---- */
 .section-title-content .menus-content {
   background-color: rgba(0, 0, 0, 0.6);
   margin: 0 auto;
@@ -267,6 +272,8 @@ p {
   color: #fff;
 }
 
+/* ---- section title Ends ---- */
+/* ---- Isotop Area ---- */
 .isotop {
   background-color: #fff;
   background-image: url("../../assets/images/cover/menu-btm.png");
@@ -281,7 +288,9 @@ p {
   height: 120%;
   margin-top: 7%;
   /* ---- button ---- */
+  /* ---- button Ends ---- */
   /* ---- .element-item ---- */
+  /* ---- .element-item Ends ---- */
 }
 
 .isotop .button {
@@ -355,13 +364,15 @@ p {
   font-size: 15px;
   font-style: italic;
   line-height: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .isotop .element-item .number {
   font-family: "Russo One", sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ff0000;
   margin: 0;
 }
+
+/* ---- Isotop Area Ends ---- */

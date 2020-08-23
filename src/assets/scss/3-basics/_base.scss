@@ -53,11 +53,12 @@ p {
 }
 
 .small-title {
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 22px;
+    line-height: 42px;
     color: $font-white;
     font-weight: 600;
 }
+
 
 .samll-p {
     font-size: 16px;
@@ -65,11 +66,15 @@ p {
 }
 
 .title {
+    font-family: $secondary-font;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
 .price {
     font-family: $style-font;
+    font-size: 22px;
     font-weight: 500;
     color: $theme-secondary-color;
 }

@@ -10,24 +10,17 @@
 								:src="
 									require('../assets/images/about/about-menu.jpg')
 								"
-								alt="Stack House"
+								alt="stack house"
 							/>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="about-right">
 							<h1 class="small-title mb-4">
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Alias sapiente impedit dolor.
+								ONLY FOR FOODIES. LIFE IS TOO SHORT FOR AVERAGE FOOD!. LISTEN TO YOUR PALATE.
 							</h1>
 							<p class="samll-p">
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Accusamus eum voluptates,
-								provident amet praesentium esse voluptatem
-								ratione adipisci aliquam consequuntur
-								reiciendis, similique magnam, atque tenetur
-								corrupti facilis! Similique facilis est alias
-								nam odio, possimus cupiditate.
+								We are an Australian-inspired steakhouse restaurant beloved worldwide. We pride ourselves on serving up variety; our unbeatable steak cuts are complemented by delicious choices of chicken, ribs, seafood, and pasta at a price for everyone. Our strategy? We're the leader of the pack by emphasizing consistently high quality delicious food delivering a warm, welcoming environment. Our generous portions are moderately priced
 							</p>
 							<p class="samll-p">
 								Lorem, ipsum dolor sit amet consectetur
@@ -48,4 +41,3 @@
 		name: "About",
 	};
 </script>
-

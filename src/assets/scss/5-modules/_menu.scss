@@ -7,6 +7,7 @@
     background-position: left top;
 }
 
+/* ---- section title Area ---- */
 .section-title-content {
     .menus-content {
         background-color: rgba(0, 0, 0, 0.6);
@@ -23,6 +24,9 @@
     }
 }
 
+/* ---- section title Ends ---- */
+
+/* ---- Isotop Area ---- */
 .isotop {
 
     background-color: #fff;
@@ -74,6 +78,8 @@
         }
     }
 
+    /* ---- button Ends ---- */
+
     .isotop-menus {
         padding: 50px 70px;
     }
@@ -119,16 +125,19 @@
             font-size: 15px;
             font-style: italic;
             line-height: 24px;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
 
         .number {
             font-family: $style-font;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 500;
             color: $theme-secondary-color;
             margin: 0;
         }
     }
 
+    /* ---- .element-item Ends ---- */
 }
+
+/* ---- Isotop Area Ends ---- */
