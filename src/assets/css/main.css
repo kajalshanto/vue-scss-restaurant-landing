@@ -78,6 +78,10 @@ p {
   padding-top: 100px;
 }
 
+.pt-120 {
+  padding-top: 120px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -244,15 +248,120 @@ p {
 
 #menu {
   width: 100%;
-  height: 100vh;
+  height: 120%;
   background-image: url("../images/cover/dishes-menu-section.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  margin-bottom: 30px;
+  background-position: left top;
+}
+
+.section-title-content .menus-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 18px;
 }
 
 .section-title-content .section-title.white,
 .section-title-content .section-p.white {
-  color: white;
+  color: #fff;
+}
+
+.isotop {
+  background-color: #fff;
+  background-image: url("../../assets/images/cover/menu-btm.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  display: block;
+  float: left;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  width: 100%;
+  height: 120%;
+  margin-top: 7%;
+  /* ---- button ---- */
+  /* ---- .element-item ---- */
+}
+
+.isotop .button {
+  margin: 0 22px 5px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3e3e3e;
+  background-color: transparent;
+  letter-spacing: 0.4px;
+  display: inline-block;
+  border: medium none;
+  line-height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.isotop .button:hover {
+  color: #ff0000;
+}
+
+.isotop .button:active, .isotop .button.is-checked {
+  color: #ff0000;
+  outline: none;
+}
+
+.isotop .button.is-checked {
+  color: #ff0000;
+  outline: none;
+}
+
+.isotop .button:active {
+  box-shadow: none;
+}
+
+.isotop .isotop-menus {
+  padding: 50px 70px;
+}
+
+.isotop .element-item {
+  color: #3e3e3e;
+  padding: 10px 20px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.isotop .element-item img {
+  padding-top: 6px;
+}
+
+.isotop .element-item .menu-content {
+  padding-left: 20px;
+  text-align: left !important;
+}
+
+.isotop .element-item .fixed {
+  overflow: hidden;
+}
+
+.isotop .element-item .name {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+
+.isotop .element-item .symbol {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.isotop .element-item .number {
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff0000;
+  margin: 0;
 }

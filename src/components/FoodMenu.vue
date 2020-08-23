@@ -1,18 +1,20 @@
 <template>
-	<div id="menu" class="pb-100">
+	<div id="menu">
 		<div class="container">
-			<div class="row">
-				<div class="section-title-content col-sm-12 text-center pt-100">
-					<h1 class="section-title white">
-						Our <span class="title-span">Food</span> Menu
+			<div class="row pt-100">
+				<div class="section-title-content col-sm-12 text-center">
+					<div class="menus-content">
+						<h1 class="section-title white">
+						We bet
+						<span class="title-span">you won’t find</span> better
 					</h1>
 
 					<p class="section-p white">
-						Our Moto is Make People Happy, Have Some Fun and Be
-						Number 1! The best flavor is in the town. We keep all
-						kind of food menus for Foddies. You will discover a
-						thounsand of items in one place. We love to share our
-						taste. Come and Enjoy.
+						These items are cooked to order. Consuming raw or
+						undercooked meats, poultry, seafood, shellfish, or eggs
+						which may contain harmful bacteria may increase your
+						risk of foodborne illness or death, especially if you
+						have certain medical conditions.
 					</p>
 					<img
 						class="img-fluid mt-5"
@@ -21,11 +23,13 @@
 						"
 						alt="coffee cup"
 					/>
+					</div>					
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 isotop text-center pt-5 mb-5">
-					<div class="button-group mb-4">
+
+			<div class="row mb-100">
+				<div class="col-md-12 col-sm-12 isotop">
+					<div class="button-group mb-4 text-center">
 						<button
 							v-for="(val, key) in option.getFilterData"
 							:key="key"
@@ -39,6 +43,7 @@
 					<div class="isotop-menus">
 						<isotope
 							ref="cpt"
+							class="row"
 							id="root_isotope1"
 							:item-selector="'element-item'"
 							:list="list"
@@ -48,6 +53,7 @@
 							<div
 								v-for="(element, index) in list"
 								:class="[element.category]"
+								class="col-md-6 col-sm-12"
 								:key="index"
 							>
 								<div class="image float-left">
@@ -136,8 +142,8 @@
 						price: 26.29,
 						category: "steaks",
 						image: "ribeye.png",
-                    },
-                    
+					},
+
 					{
 						title: "GRILLED SHRIMP ON THE BARBIE",
 						details:
@@ -226,7 +232,7 @@
 						image: "salted-creame.png",
 					},
 					{
-						title: "CHOCOLATE THUNDER FROM DOWN UNDER®",
+						title: "CHOCOLATE THUNDER VANILLA CAKE",
 						details:
 							"An extra generous pecan brownie topped with rich vanilla ice cream.",
 						price: 8.99,
@@ -304,115 +310,3 @@
 		},
 	};
 </script>
-
-<style>
-	.isotop {
-		background-color: #fff;
-		background-image: url("../assets/images/cover/menu-btm.png");
-		background-position: center bottom;
-		background-repeat: no-repeat;
-		box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
-		display: block;
-		float: left;
-		padding: 90px 90px 240px;
-		width: 100%;
-		margin-top: 7%;
-	}
-	/* Isotop */
-
-	* {
-		box-sizing: border-box;
-	}
-
-	/* ---- button ---- */
-
-	.button {
-		display: inline-block;
-		background-color: transparent;
-		border: medium none;
-		color: #535353;
-		font-size: 15px;
-		font-weight: 700;
-		letter-spacing: 0.4px;
-		line-height: 20px;
-		margin: 0 22px 5px;
-		padding: 0;
-		text-transform: uppercase;
-		cursor: pointer;
-		border: none;
-	}
-
-	.button:hover {
-		color: #e54c2a;
-	}
-
-	.button:active,
-	.button.is-checked {
-		color: #e54c2a;
-		outline: none;
-	}
-
-	.is-checked {
-		color: #e54c2a;
-		outline: none;
-	}
-
-	.button.is-checked {
-		color: #e54c2a;
-		outline: none;
-	}
-
-	.button:active {
-		box-shadow: none;
-	}
-
-	.isotop-menus {
-		padding: 50px 70px;
-	}
-	/* ---- .element-item ---- */
-
-	.element-item {
-		position: relative;
-		float: left;
-		/* width: 100px;
-		height: 100px; */
-		width: 48%;
-		margin: 1%;
-		padding: 10px;
-		color: #262524;
-		box-sizing: border-box;
-		overflow: hidden;
-		margin-bottom: 35px;
-	}
-
-	.element-item img {
-		padding-top: 6px;
-	}
-
-	.element-item .name {
-		font-size: 16px;
-		font-weight: 600;
-		margin-bottom: 4px;
-		text-transform: capitalize;
-	}
-
-	.element-item .symbol {
-		font-size: 14px;
-		font-style: italic;
-		margin-bottom: 2px;
-	}
-
-	.element-item .number {
-		color: #e54c2a;
-		font-size: 20px;
-		font-weight: 600;
-		margin: 0;
-	}
-	.menu-content {
-		padding-left: 20px;
-		text-align: left !important;
-	}
-	.fixed {
-		overflow: hidden;
-	}
-</style>
