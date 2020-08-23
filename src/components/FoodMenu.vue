@@ -97,22 +97,6 @@
 						image: "onion.png",
 					},
 					{
-						title: "GRILLED SHRIMP ON THE BARBIE",
-						details:
-							"Sprinkled with a special blend of seasonings and grilled. Served with grilled artisan bread.",
-						price: 10.99,
-						category: "starter",
-						image: "grilled-shrirmp.png",
-					},
-					{
-						title: "GOLD COAST COCONUT SHRIMP",
-						details:
-							"Hand-dipped in batter, rolled in coconut and fried golden. Paired with Creole marmalade.",
-						price: 6.29,
-						category: "starter",
-						image: "gold-coast.png",
-					},
-					{
 						title: "AUSSIE COBB SALAD",
 						details:
 							"Fresh mixed greens, chopped hard-boiled eggs, Monterey Jack and Cheddar cheese.",
@@ -152,6 +136,23 @@
 						price: 26.29,
 						category: "steaks",
 						image: "ribeye.png",
+                    },
+                    
+					{
+						title: "GRILLED SHRIMP ON THE BARBIE",
+						details:
+							"Sprinkled with a special blend of seasonings and grilled. Served with grilled artisan bread.",
+						price: 10.99,
+						category: "starter",
+						image: "grilled-shrirmp.png",
+					},
+					{
+						title: "GOLD COAST COCONUT SHRIMP",
+						details:
+							"Hand-dipped in batter, rolled in coconut and fried golden. Paired with Creole marmalade.",
+						price: 6.29,
+						category: "starter",
+						image: "gold-coast.png",
 					},
 					{
 						title: "BONE-IN NATURAL CUT RIBEYE*",
