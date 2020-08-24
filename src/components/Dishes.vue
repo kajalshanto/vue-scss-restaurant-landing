@@ -21,7 +21,7 @@
 						:src="
 							require('../assets/images/logo/section-logo.png')
 						"
-						alt="coffee cup"
+						alt="staek with knife"
 					/>
 				</div>
 				<!--/. Section title  -->

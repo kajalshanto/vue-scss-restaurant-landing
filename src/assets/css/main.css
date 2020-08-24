@@ -131,6 +131,7 @@ p {
 }
 
 .btn-white-border {
+  font-size: 17px;
   color: #ff0000;
   background-color: #fff;
   border: 1px solid #fff;
@@ -382,3 +383,86 @@ p {
 }
 
 /* ---- Isotop Area Ends ---- */
+#reservation {
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.reservation-content .reservation-opening {
+  color: #fff;
+  background-color: #010101e7;
+  padding: 15px;
+}
+
+.reservation-content .reservation-opening .reservation-time {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  border: 2px dashed #ff0000;
+}
+
+.reservation-content .reservation-opening .reservation-time .wok-days {
+  padding: 10px 50px;
+}
+
+.reservation-content .reservation-opening .reservation-social {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border: 2px dashed #ff0000;
+  border-top: none;
+}
+
+.reservation-content .reservation-opening .reservation-social h5 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 24px;
+}
+
+.reservation-content .reservation-opening .reservation-social .soc-icon {
+  color: #fff;
+  margin: 0 5px;
+  transition: all .2s ease-in-out;
+}
+
+.reservation-content .reservation-opening .reservation-social .soc-icon:hover {
+  color: red;
+}
+
+.reservation-content .reservatin-form {
+  padding: 70px 100px 60px 100px;
+  background-color: red;
+}
+
+.reservation-content .reservatin-form-title {
+  padding-bottom: 21px;
+}
+
+.reservation-content .reservatin-form-title h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+}
+
+.reservation-content .reservatin-form-area {
+  padding: 70px 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 5px);
+  padding: .8rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #fff;
+  border-radius: .25rem;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: none;
+  outline: 0;
+  box-shadow: none !important;
+}

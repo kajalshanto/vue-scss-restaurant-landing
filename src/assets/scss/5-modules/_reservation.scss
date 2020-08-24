@@ -1,0 +1,87 @@
+#reservation {
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.reservation-content {
+
+    .reservation-opening {
+        color: $font-white;
+        background-color: $theme-dark;
+        padding: 15px;
+
+        .reservation-time {
+            padding-top: 70px;
+            padding-bottom: 20px;
+            border: 2px dashed $theme-secondary-color;
+
+            .wok-days {
+                padding: 10px 50px;
+            }
+        }
+
+        .reservation-social {
+            padding-top: 30px;
+            padding-bottom: 40px;
+            border: 2px dashed $theme-secondary-color;
+            border-top: none;
+
+            & h5 {
+                font-family: $secondary-font;
+                margin-bottom: 24px;
+            }
+
+            .soc-icon {
+                color: #fff;
+                margin: 0 5px;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+
+
+    .reservatin-form {
+        padding: 70px 100px 60px 100px;
+        background-color: red;
+
+        &-title {
+            padding-bottom: 21px;
+
+            h3 {
+                font-family: $secondary-font;
+                font-size: 28px;
+            }
+        }
+
+        &-area {
+            padding: 70px 0;
+        }
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 5px);
+    padding: .8rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    box-shadow: none;
+    margin-bottom: 20px;
+
+    &:focus {
+        background-color: transparent;
+        border-color: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+}
