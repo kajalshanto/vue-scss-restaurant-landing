@@ -9,6 +9,7 @@
         <Reservation/>
         <Gmap/>
         <Testimonials/>
+        <Footer/>
 
     </div>
 </template>
@@ -23,6 +24,8 @@ import Gallery from './Gallery'
 import Reservation from './Reservation'
 import Gmap from './GoogleMap'
 import Testimonials from './Testimonials'
+import Footer from './Footer'
+
 
 
 
@@ -43,6 +46,7 @@ import Testimonials from './Testimonials'
             Reservation,            
             Gmap,
             Testimonials,
+            Footer
         }
     }
 </script>
