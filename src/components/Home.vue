@@ -8,6 +8,7 @@
         <Gallery/>
         <Reservation/>
         <Gmap/>
+        <Testimonials/>
 
     </div>
 </template>
@@ -20,8 +21,8 @@ import Dishes from './Dishes'
 import Menu from './FoodMenu'
 import Gallery from './Gallery'
 import Reservation from './Reservation'
-
 import Gmap from './GoogleMap'
+import Testimonials from './Testimonials'
 
 
 
@@ -41,6 +42,7 @@ import Gmap from './GoogleMap'
             Gallery,
             Reservation,            
             Gmap,
+            Testimonials,
         }
     }
 </script>
