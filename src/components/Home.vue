@@ -5,7 +5,7 @@
         <About/>
         <Dishes/> 
         <Menu/>
-        <!-- <Gmap/> -->
+        <Gmap/>
     </div>
 </template>
 
@@ -15,7 +15,7 @@ import Hero from './Hero'
 import About from './About'
 import Dishes from './Dishes'
 import Menu from './FoodMenu'
-//import Gmap from './GoogleMap'
+import Gmap from './GoogleMap'
 
 
 
@@ -31,7 +31,7 @@ import Menu from './FoodMenu'
             About,
             Dishes,
             Menu,
-            //Gmap
+            Gmap
         }
     }
 </script>

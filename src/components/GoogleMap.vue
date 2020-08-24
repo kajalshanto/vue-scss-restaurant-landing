@@ -41,6 +41,7 @@
         height: auto;
     }
     #gmap{  
-        top: auto;  
+		top: auto; 
+		background-color:whitesmoke; 
     }
 </style>

@@ -1,40 +1,45 @@
 <template>
 	<div id="menu">
-		<div class="container">
-			<!-- row  -->
-			<div class="row pt-120">
-				<!-- Section Title -->
-				<div class="section-title-content col-sm-12 text-center">
-					<div class="menus-content">
-						<h1 class="section-title white">
-							We bet
-							<span class="title-span">you won’t find</span>
-							better
-						</h1>
+		<div class="sction-bg">
+			<div class="container">
+				<!-- row  -->
+				<div class="row pt-120">
+					<!-- Section Title -->
+					<div class="section-title-content col-sm-12 text-center">
+						<div class="menus-content">
+							<h1 class="section-title white">
+								We bet
+								<span class="title-span">you won’t find</span>
+								better
+							</h1>
 
-						<p class="section-p white">
-							These items are cooked to order. Consuming raw or
-							undercooked meats, poultry, seafood, shellfish, or
-							eggs which may contain harmful bacteria may increase
-							your risk of foodborne illness or death, especially
-							if you have certain medical conditions.
-						</p>
-						<img
-							class="img-fluid mt-5"
-							:src="
-								require('../assets/images/sec-icon/section-title-icon.png')
-							"
-							alt="coffee cup"
-						/>
+							<p class="section-p white">
+								These items are cooked to order. Consuming raw
+								or undercooked meats, poultry, seafood,
+								shellfish, or eggs which may contain harmful
+								bacteria may increase your risk of foodborne
+								illness or death, especially if you have certain
+								medical conditions.
+							</p>
+							<img
+								class="img-fluid mt-5"
+								:src="
+									require('../assets/images/sec-icon/section-title-icon.png')
+								"
+								alt="coffee cup"
+							/>
+						</div>
 					</div>
+					<!--/. Section Title -->
 				</div>
-				<!--/. Section Title -->
 			</div>
 			<!--/. row  -->
+		</div>
 
+		<div class="container">
 			<!-- row  -->
 			<div class="row mb-100">
-				<div class="col-md-12 col-sm-12 isotop">
+				<div class="col-sm-12 offset-sm-0 col-10 offset-1 isotop">
 					<!-- Isotop Buttons -->
 					<div class="button-group mb-4 text-center">
 						<button
