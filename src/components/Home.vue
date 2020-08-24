@@ -6,6 +6,7 @@
         <Dishes/> 
         <Menu/>
         <Gallery/>
+        <Reservation/>
         <Gmap/>
 
     </div>
@@ -17,8 +18,10 @@ import Hero from './Hero'
 import About from './About'
 import Dishes from './Dishes'
 import Menu from './FoodMenu'
-import Gmap from './GoogleMap'
 import Gallery from './Gallery'
+import Reservation from './Reservation'
+
+import Gmap from './GoogleMap'
 
 
 
@@ -35,8 +38,9 @@ import Gallery from './Gallery'
             About,
             Dishes,
             Menu,
+            Gallery,
+            Reservation,            
             Gmap,
-            Gallery
         }
     }
 </script>
