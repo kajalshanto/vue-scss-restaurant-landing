@@ -34,7 +34,7 @@
             .soc-icon {
                 color: #fff;
                 margin: 0 5px;
-                transition: all .2s ease-in-out;
+                transition: all 0.3s ease 0s;
 
                 &:hover {
                     color: red;
@@ -63,6 +63,8 @@
     }
 }
 
+/*change styles of bootstrap defalt*/
+
 .form-control {
     display: block;
     width: 100%;
@@ -73,15 +75,22 @@
     line-height: 1.5;
     background-color: transparent;
     background-clip: padding-box;
-    border: 1px solid #fff;
+    border: 2px solid $font-white;
     border-radius: .25rem;
     box-shadow: none;
     margin-bottom: 20px;
 
     &:focus {
         background-color: transparent;
-        border-color: none;
+        border-color: $font-white;
         outline: 0;
         box-shadow: none !important;
     }
+
+    //add custom color of placeholder
+    &::placeholder {
+        color: $font-primary;
+        opacity: 1;
+    }
+
 }

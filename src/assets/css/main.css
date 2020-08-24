@@ -134,7 +134,7 @@ p {
   font-size: 17px;
   color: #ff0000;
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   transition: all 0.3s ease 0s;
 }
 
@@ -419,7 +419,7 @@ p {
 .reservation-content .reservation-opening .reservation-social .soc-icon {
   color: #fff;
   margin: 0 5px;
-  transition: all .2s ease-in-out;
+  transition: all 0.3s ease 0s;
 }
 
 .reservation-content .reservation-opening .reservation-social .soc-icon:hover {
@@ -444,6 +444,7 @@ p {
   padding: 70px 0;
 }
 
+/*change styles of bootstrap defalt*/
 .form-control {
   display: block;
   width: 100%;
@@ -454,7 +455,7 @@ p {
   line-height: 1.5;
   background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: .25rem;
   box-shadow: none;
   margin-bottom: 20px;
@@ -462,7 +463,12 @@ p {
 
 .form-control:focus {
   background-color: transparent;
-  border-color: none;
+  border-color: #fff;
   outline: 0;
   box-shadow: none !important;
+}
+
+.form-control::placeholder {
+  color: #333;
+  opacity: 1;
 }
