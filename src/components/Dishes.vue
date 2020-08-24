@@ -1,6 +1,7 @@
 <template>
 	<div id="dishes" class="section">
 		<div class="container">
+			<!-- row  -->
 			<div class="row">
 				<!-- Section title  -->
 				<div class="section-title-content col-sm-12 text-center">
@@ -25,7 +26,9 @@
 				</div>
 				<!--/. Section title  -->
 			</div>
+			<!--/. row  -->
 
+			<!-- row  -->
 			<div class="row pt-100">
 				<!-- single featured items -->
 				<div
@@ -59,6 +62,7 @@
 				</div>
 				<!--/. Button -->
 			</div>
+			<!--/. row  -->
 		</div>
 	</div>
 </template>
