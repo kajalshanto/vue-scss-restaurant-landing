@@ -156,10 +156,11 @@ p {
 .navbar {
   border-top: 5px solid #ff0000;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  /* Brand Logo sizing */
 }
 
 .navbar .navbar-brand {
-  width: 100px;
+  width: 140px;
 }
 
 .navbar .navbar-nav .nav-item {

@@ -24,7 +24,7 @@
 							<img
 								class="img-fluid mt-5"
 								:src="
-									require('../assets/images/sec-icon/section-title-icon.png')
+									require('../assets/images/logo/section-logo.png')
 								"
 								alt="coffee cup"
 							/>

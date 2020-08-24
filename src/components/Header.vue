@@ -10,7 +10,7 @@
 							<img
 								class="img-fluid"
 								:src="
-									require('../assets/images/logo/restaurant-logo.png')
+									require('../assets/images/logo/logo.png')
 								"
 								alt="Stack House"
 							/>
@@ -88,8 +88,8 @@
 					{ li: "menu", id: "menu" },
 					{ li: "gallery", id: "gallery" },
 					{ li: "reservation", id: "reservation" },					
-					{ li: "find us", id: "find-us" },
-					{ li: "contact", id: "contact" },
+					{ li: "find us", id: "gmap" },
+					{ li: "contact", id: "footer" },
 				],
 			};
 		},
