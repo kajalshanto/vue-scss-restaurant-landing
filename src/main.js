@@ -10,13 +10,7 @@ import AlertIcon from 'vue-ionicons/dist/ios-alert.vue'
 Vue.component('alert-icon', AlertIcon)
 require('vue-ionicons/ionicons.css')
 
-// vue-awesome-swiper for carousel 
-import Vue from 'vue'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-// If you use Swiper 6.0.0 or higher
-import 'swiper/swiper-bundle.css'
-
-Vue.use(VueAwesomeSwiper, /* { default options with global component } */ )
+// vue-awesome-swiper for carousel   not working
 
 
 //Main CSS prepossed by SCSS

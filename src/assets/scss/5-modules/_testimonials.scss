@@ -1,0 +1,70 @@
+#testimonials {
+    //background-color: yellow;
+}
+
+#slider {
+    width: 100%;
+    margin: 70px auto;
+
+    .client_image {
+        border-radius: 50%;
+        width: 120px;
+        border: 4px dotted $theme-secondary-color;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-weight: 600;
+    }
+
+    .job_title {
+        margin-bottom: 30px;
+    }
+
+    .name,
+    .job_title {
+        color: black;
+    }
+}
+
+
+
+p.what_says {
+    max-width: none;
+    text-align: center;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '\201C';
+        padding: 4px;
+        font-size: 100px;
+        left: 25px;
+        top: -20px;
+        color: $theme-secondary-color;
+    }
+
+    &::after {
+        position: absolute;
+        content: '\201D';
+        padding: 4px;
+        font-size: 100px;
+        color: $theme-secondary-color;
+        padding-top: 40px;
+        right: 25px;
+    }
+}
+
+
+/* Slider pagination custom color */
+
+.swiper-container-horizontal>*>.slider-pagination-bullet {
+    background: $theme-secondary-color !important;
+    opacity: 0.5;
+}
+
+.swiper-container-horizontal .slider-pagination-bullet-active,
+.swiper-container-vertical .slider-pagination-bullet-active {
+    background: $theme-secondary-color !important;
+    opacity: .8;
+}

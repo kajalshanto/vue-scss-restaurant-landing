@@ -1,4 +1,4 @@
-// this is the single file output by scss. It is intended to ONLY @import files
+// This is the single file output by scss. It is intended to ONLY @import files
 
 // 1 - HELPERS
 @import '1-helpers/variables';
@@ -25,13 +25,13 @@
 @import '5-modules/featured_dishes';
 @import '5-modules/menu';
 @import '5-modules/reservation';
+@import '5-modules/testimonials';
 
 
 
 
 
-
-// 6 - PAGES {This is single paeg so empty this section}
+// 6 - PAGES {This is single page so empty this section}
 
 //7 - RESPONSIVES
 @import '7-responsive/small';

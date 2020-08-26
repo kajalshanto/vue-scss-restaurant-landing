@@ -472,3 +472,66 @@ p {
   color: #333;
   opacity: 1;
 }
+
+#slider {
+  width: 100%;
+  margin: 70px auto;
+}
+
+#slider .client_image {
+  border-radius: 50%;
+  width: 120px;
+  border: 4px dotted #ff0000;
+  margin-bottom: 20px;
+}
+
+#slider .name {
+  font-weight: 600;
+}
+
+#slider .job_title {
+  margin-bottom: 30px;
+}
+
+#slider .name,
+#slider .job_title {
+  color: black;
+}
+
+p.what_says {
+  max-width: none;
+  text-align: center;
+  position: relative;
+}
+
+p.what_says::before {
+  position: absolute;
+  content: '\201C';
+  padding: 4px;
+  font-size: 100px;
+  left: 25px;
+  top: -20px;
+  color: #ff0000;
+}
+
+p.what_says::after {
+  position: absolute;
+  content: '\201D';
+  padding: 4px;
+  font-size: 100px;
+  color: #ff0000;
+  padding-top: 40px;
+  right: 25px;
+}
+
+/* Slider pagination custom color */
+.swiper-container-horizontal > * > .slider-pagination-bullet {
+  background: #ff0000 !important;
+  opacity: 0.5;
+}
+
+.swiper-container-horizontal .slider-pagination-bullet-active,
+.swiper-container-vertical .slider-pagination-bullet-active {
+  background: #ff0000 !important;
+  opacity: .8;
+}
