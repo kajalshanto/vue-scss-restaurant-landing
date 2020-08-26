@@ -51,7 +51,7 @@
 				<!-- Button -->
 				<div class="col-sm-12 col-12 text-center mt-50">
 					<a
-						href="#menu"
+						v-scroll-to="'#iso_menu'"
 						data-scroll
 						class="btn btn-custom btn-primary-border"
 						>View all menu

@@ -26,7 +26,7 @@ var VueScrollTo = require('vue-scrollto');
 // You can also pass in the default options
 Vue.use(VueScrollTo, {
   container: "body",
-  duration: 500,
+  duration: 1000,
   easing: "ease",
   offset: 0,
   force: true,

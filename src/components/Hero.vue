@@ -19,7 +19,7 @@
 								everyone
 							</p>
 							<a
-								href="#reservation"
+								v-scroll-to="'#reservation'"
 								data-scroll
 								class="btn btn-custom btn-primary-border"
 								>order now</a

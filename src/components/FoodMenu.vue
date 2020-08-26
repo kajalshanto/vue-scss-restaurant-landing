@@ -39,7 +39,7 @@
 		<div class="container">
 			<!-- row  -->
 			<div class="row mb-100">
-				<div class="col-sm-12 offset-sm-0 col-10 offset-1 isotop">
+				<div id="iso_menu" class="col-sm-12 offset-sm-0 col-10 offset-1 isotop">
 					<!-- Isotop Buttons -->
 					<div class="button-group mb-4 text-center">
 						<button
