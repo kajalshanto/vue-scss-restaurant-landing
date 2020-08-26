@@ -68,41 +68,50 @@
 					<!-- Reservation right -->
 					<div class="col-md-7 col-sm-12 mb-30">
 						<div class="reservatin-form">
-							<div class="reservatin-form-title text-center text-white">
+							<div
+								class="reservatin-form-title text-center text-white"
+							>
 								<h3>Reservation Form</h3>
 							</div>
 
 							<div class="reservatin-form-area">
 								<form action="#">
-									<div class="form-group"> 
+									<div class="form-group">
 										<input
 											type="text"
-											class="form-control" 
+											class="form-control"
 											placeholder="Full Name"
 										/>
 									</div>
-									<div class="form-group"> 
+									<div class="form-group">
 										<input
 											type="email"
-											class="form-control" 
+											class="form-control"
 											placeholder="Email Adress"
 										/>
 									</div>
-                                    <div class="form-group"> 
+									<div class="form-group">
 										<input
 											type="text"
-											class="form-control" 
+											class="form-control"
 											placeholder="Mobile Number"
 										/>
 									</div>
-                                    <div class="form-group"> 
-										<input
-											type="date"
-											class="form-control" 
+									<div class="form-group">
+										<datetime
+											type="datetime"
+											v-model="datetime12"
+											use12-hour
+											class="form-control"
 											placeholder="Select Data and Time"
-										/>
+										></datetime>
 									</div>
-                                    <button type="submit" class="btn btn-custom btn-white-border btn-lg btn-block">Submit</button>
+									<button
+										type="submit"
+										class="btn btn-custom btn-white-border btn-lg btn-block"
+									>
+										Submit
+									</button>
 								</form>
 							</div>
 						</div>
@@ -120,6 +129,7 @@
 	import LogoGoogleplusIcon from "vue-ionicons/dist/logo-googleplus.vue";
 	import LogoInstagramIcon from "vue-ionicons/dist/logo-instagram.vue";
 	import LogoLinkedinIcon from "vue-ionicons/dist/logo-linkedin.vue";
+	import { Datetime } from "vue-datetime";
 
 	export default {
 		name: "Reservation",
@@ -130,6 +140,7 @@
 			LogoGoogleplusIcon,
 			LogoInstagramIcon,
 			LogoLinkedinIcon,
+			datetime: Datetime,
 		},
 	};
 </script>

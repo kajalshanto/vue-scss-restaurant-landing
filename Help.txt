@@ -24,6 +24,10 @@ $font-white: #fff;
 
 transition: all 0.3s ease 0s;
 
+Logo font family: { simple & modern } [ Sansita One ]
+color: ff0000;
+fz: 60px & 40px
+
 
 
 

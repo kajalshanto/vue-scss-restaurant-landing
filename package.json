@@ -11,13 +11,18 @@
     "bootstrap": "^4.5.2",
     "core-js": "^3.6.5",
     "jquery": "^3.5.1",
+    "luxon": "^1.25.0",
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
     "vue-concise-slider": "^3.4.4",
+    "vue-datetime": "^1.0.0-beta.14",
     "vue-ionicons": "^3.0.5",
+    "vue-scrollto": "^2.18.2",
+    "vue-silentbox": "^2.2.0",
     "vue-smooth-scroll": "^1.0.13",
     "vue2-google-maps": "^0.10.7",
-    "vueisotope": "^3.1.2"
+    "vueisotope": "^3.1.2",
+    "weekstart": "^1.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

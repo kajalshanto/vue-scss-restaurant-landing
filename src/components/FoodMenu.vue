@@ -148,14 +148,6 @@
 						image: "victoria-filet.png",
 					},
 					{
-						title: "OUTBACK CENTER-CUT SIRLOIN*",
-						details:
-							"Center-cut for tenderness. Lean, hearty and full of flavor. Seasoned and seared.",
-						price: 20.49,
-						category: "steaks",
-						image: "outbreak-center.png",
-					},
-					{
 						title: "RIBEYE*",
 						details:
 							"Well-marbled, juicy and savory. Seasoned grilled for a delicious natural flavor.",
@@ -164,6 +156,14 @@
 						image: "ribeye.png",
 					},
 
+					{
+						title: "OUTBACK CENTER-CUT SIRLOIN*",
+						details:
+							"Center-cut for tenderness. Lean, hearty and full of flavor. Seasoned and seared.",
+						price: 20.49,
+						category: "steaks",
+						image: "outbreak-center.png",
+					},
 					{
 						title: "GRILLED SHRIMP ON THE BARBIE",
 						details:

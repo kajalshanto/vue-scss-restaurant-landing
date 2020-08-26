@@ -3,7 +3,7 @@
 		<header>
 			<div class="container-fluid">
 				<nav
-					class="navbar navbar-expand-lg navbar-light bg-custom text-black"
+					class="navbar navbar-expand-lg navbar-light bg-white text-black fixed-top"
 				>
 					<div class="container">
 						<a class="navbar-brand" href="/">
@@ -44,9 +44,10 @@
 									v-for="item in navItem"
 									:key="item.li"
 								>
-									<a class="nav-link" :href="`#${item.id}`">{{
+									<a class="nav-link" v-scroll-to="`#${item.id}`">{{
 										item.li
-									}}</a>
+									}}</a> 
+									<!-- a normal link directive :href="`#${item.id}`"  -->
 								</li>
 								<li
 									class="nav-item pt-1 d-lg-block d-md-none d-none"

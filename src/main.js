@@ -11,7 +11,32 @@ Vue.component('alert-icon', AlertIcon)
 require('vue-ionicons/ionicons.css')
 
 // vue-awesome-swiper for carousel   not working
+// VueSilentbox like lightbox
+import VueSilentbox from 'vue-silentbox'
+Vue.use(VueSilentbox)
 
+// Vue data time picker
+import Datetime from 'vue-datetime'
+// You need a specific loader for CSS files
+import 'vue-datetime/dist/vue-datetime.css'
+Vue.use(Datetime)
+
+//Vue scrool to Plugin
+var VueScrollTo = require('vue-scrollto');
+// You can also pass in the default options
+Vue.use(VueScrollTo, {
+  container: "body",
+  duration: 500,
+  easing: "ease",
+  offset: 0,
+  force: true,
+  cancelable: true,
+  onStart: false,
+  onDone: false,
+  onCancel: false,
+  x: false,
+  y: true
+})
 
 //Main CSS prepossed by SCSS
 import './assets/css/main.css'

@@ -93,4 +93,30 @@
         opacity: 1;
     }
 
+
+}
+
+// Vue date time picker styles
+.form-group {
+    position: relative;
+
+    .vdatetime {
+        input {
+            position: absolute;
+            // color: $font-primary !important;
+            background-color: transparent !important;
+            width: 100%;
+            top: 7px;
+            margin: 0em;
+            font: inherit;
+            padding: -100px 0 0 0;
+            border-width: 0px;
+            border-color: none !important;
+
+            &::placeholder {
+                color: $font-primary !important;
+                opacity: 1;
+            }
+        }
+    }
 }

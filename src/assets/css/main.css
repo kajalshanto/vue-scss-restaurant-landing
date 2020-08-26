@@ -98,6 +98,10 @@ p {
   margin-top: 50px;
 }
 
+.mb-25 {
+  margin-bottom: 25px;
+}
+
 .btn-custom {
   color: #fff;
   font-weight: 700;
@@ -148,10 +152,18 @@ p {
   box-shadow: none !important;
 }
 
+#header {
+  background: #000 !important;
+}
+
 #header .container-fluid,
 #header .container {
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
 }
 
 .navbar {
@@ -473,6 +485,27 @@ p {
   opacity: 1;
 }
 
+.form-group {
+  position: relative;
+}
+
+.form-group .vdatetime input {
+  position: absolute;
+  background-color: transparent !important;
+  width: 100%;
+  top: 7px;
+  margin: 0em;
+  font: inherit;
+  padding: -100px 0 0 0;
+  border-width: 0px;
+  border-color: none !important;
+}
+
+.form-group .vdatetime input::placeholder {
+  color: #333 !important;
+  opacity: 1;
+}
+
 #slider {
   width: 100%;
   margin: 70px auto;
@@ -534,4 +567,92 @@ p.what_says::after {
 .swiper-container-vertical .slider-pagination-bullet-active {
   background: #ff0000 !important;
   opacity: .8;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  overflow: hidden;
+}
+
+.footer_content {
+  padding: 120px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer_content .footer-single {
+  float: left;
+  padding: 0 18px 0 0;
+  color: #fff !important;
+  margin-bottom: 30px;
+}
+
+.footer_content .footer-single img {
+  width: 300px;
+}
+
+.footer_content .footer-single h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.footer_content .footer-single strong {
+  text-transform: capitalize;
+}
+
+.footer_content .footer-single .footer-p {
+  color: #fff !important;
+  font-size: 14px;
+  margin-bottom: 8px !important;
+}
+
+.footer_content .footer-single .footer-p a {
+  color: #fff !important;
+}
+
+.footer_content .footer-single form {
+  position: relative;
+  margin-top: 25px;
+}
+
+.footer_content .footer-single form .submit-icon {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  color: white !important;
+}
+
+.footer_content .footer-single input {
+  color: white !important;
+  background-color: transparent !important;
+  cursor: text;
+  margin: 0em;
+  font: inherit;
+  padding: 10px 10px;
+  border-width: 2px !important;
+  border-color: #fff !important;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.footer-botom {
+  background-color: #ff0000;
+}
+
+.footer-botom p {
+  font-weight: 400;
+  color: #010101e7;
+  max-width: none;
+  margin-bottom: 8px;
+}
+
+.footer-botom p a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+.footer-botom p a:hover {
+  color: black;
+  text-decoration: underline;
 }
