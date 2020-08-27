@@ -38,6 +38,11 @@ Vue.use(VueScrollTo, {
   y: true
 })
 
+
+import BackToTop from 'vue-backtotop'
+Vue.use(BackToTop)
+
+
 //Main CSS prepossed by SCSS
 import './assets/css/main.css'
 

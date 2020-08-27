@@ -37,7 +37,8 @@
 									v-for="item in navItem"
 									:key="item.li"
 								>
-									<a class="nav-link" v-scroll-to="`#${item.id}`">
+									<a class="nav-link" 
+									v-scroll-to="{ el:`#${item.id}`,offset: -100 }">
 										{{ item.li }}
 									</a>  
 								</li> 

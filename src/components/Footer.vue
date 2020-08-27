@@ -74,9 +74,10 @@
 
 					<div class="col-md-6 col-sm-12 text-right py-3 made-with">
 						<p>
-							Made with <strong>Vue.JS | Vue CLI | Bootstrap </strong>  _4.5
+							Made with
+							<strong>Vue.JS | Vue CLI | Bootstrap </strong> _4.5
 						</p>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>
@@ -84,20 +85,37 @@
 </template>
 
 <script>
-	import MdPaperPlaneIcon from "vue-ionicons/dist/md-paper-plane.vue";	
+	import MdPaperPlaneIcon from "vue-ionicons/dist/md-paper-plane.vue";
 
 	export default {
 		name: "Footer",
 
 		components: {
-			MdPaperPlaneIcon,
+			MdPaperPlaneIcon, 
 		},
-	};
+	}; 
+
 </script>
 
 <style scoped>
-	.btn.focus, .btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0rem !important;
-}
+	.btn.focus,
+	.btn:focus {
+		outline: 0;
+		box-shadow: 0 0 0 0rem !important;
+	}
+/* 
+	.to-top{
+		position: fixed;
+		right: 25px;
+		bottom: 60px; 
+		color: #fff;
+		background-color: red; 
+		box-shadow: #000 2px 2px 2px;
+		opacity: 0;
+	}
+	.to-top.active{
+		bottom: 60px;
+		pointer-events: auto;
+		opacity: 1;
+	} */
 </style>

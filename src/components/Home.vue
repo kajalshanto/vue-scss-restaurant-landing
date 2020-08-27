@@ -10,7 +10,12 @@
 		<Gmap />
 		<Testimonials />
 		<Footer />
-		<go-top></go-top>
+		
+		<!--  -->
+		<back-to-top text="Back to top" visibleoffset="500">
+			<MdArrowUpIcon w="40px" h="40px" />
+		</back-to-top>
+		<!--  --> 
 	</div>
 </template>
 
@@ -26,7 +31,7 @@
 	import Testimonials from "./Testimonials";
 	import Footer from "./Footer";
 
-	import GoTop from "@inotom/vue-go-top";
+	import MdArrowUpIcon from "vue-ionicons/dist/md-arrow-up.vue";
 	export default {
 		name: "Home",
 
@@ -41,27 +46,22 @@
 			Gmap,
 			Testimonials,
 			Footer,
-			GoTop,
+			MdArrowUpIcon,
 		},
 	};
 </script>
 
-<style scoped>
-	.vue-go-top {
-		width: 70px;
-		height: 70px; 
-		right: 35px !important; /* deafult 50px */
-		bottom: calc(100px);
-		z-index: 1000;
-		color: rgb(255, 255, 255);
-		background-color: rgb(255 0 0 / 1) !important;
-		/* box-shadow: #343a40 1px 1px 2px !important; */
-		box-shadow: #000 1px 1px 2px !important;
-		border-radius: 50%;
-	}
-	.vue-go-top:focus,
-	.vue-go-top:active {
-		outline: none !important; 
-		box-shadow: none !important;
-	}
+<style>
+	.vue-back-to-top {
+		right: 25px;
+		bottom: 60px;
+		color: #fff;
+		background-color: red;
+		box-shadow: #000 2px 2px 2px;
+		transition: all 300ms ease-in-out ;
+	} 
+	.vue-back-to-top:hover {
+		color: #000;
+		transform: scale(1.1); 
+	} 
 </style>
