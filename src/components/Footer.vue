@@ -60,7 +60,7 @@
 		<div class="footer-botom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 text-center py-3">
+					<div class="col-md-6 col-sm-12 text-left py-3">
 						<p>
 							Copyright &copy; {{ new Date().getFullYear() }}
 							<a
@@ -69,6 +69,12 @@
 							>
 								<strong>Shanto's Blackbox</strong></a
 							>. All Rights Reserved.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-sm-12 text-right py-3 made-with">
+						<p>
+							Made with <strong>Vue.JS | Vue CLI | Bootstrap </strong>  _4.5
 						</p>
 					</div>
 				</div>

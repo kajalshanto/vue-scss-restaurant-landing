@@ -100,4 +100,14 @@
             }
         }
     }
+
+    .made-with p {
+        font-size: 16px;
+        color: $font-white !important;
+    }
+}
+
+.section-gap {
+    background-color: red;
+    padding: 30px 0;
 }

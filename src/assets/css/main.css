@@ -296,6 +296,16 @@ p {
   text-decoration: underline;
 }
 
+.footer-botom .made-with p {
+  font-size: 16px;
+  color: #fff !important;
+}
+
+.section-gap {
+  background-color: red;
+  padding: 30px 0;
+}
+
 #home {
   width: 100%;
   height: 100vh;
@@ -303,7 +313,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-bottom: 50px;
 }
 
 .hero-slider {
