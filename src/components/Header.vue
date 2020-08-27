@@ -14,14 +14,7 @@
 								"
 								alt="Stack House"
 							/>
-						</a>
-						<ul
-							class="navbar-nav ml-auto mt-2 pr-2 d-md-block d-lg-none"
-						>
-							<li class="nav-item pt-1">
-								<MdSearchIcon w="30px" h="26px" />
-							</li>
-						</ul>
+						</a> 
 						<button
 							class="navbar-toggler"
 							type="button"
@@ -44,24 +37,10 @@
 									v-for="item in navItem"
 									:key="item.li"
 								>
-									<a class="nav-link" v-scroll-to="`#${item.id}`">{{
-										item.li
-									}}</a> 
-									<!-- a normal link directive :href="`#${item.id}`"  -->
-								</li>
-								<li
-									class="nav-item pt-1 d-lg-block d-md-none d-none"
-								>
-									<MdSearchIcon w="30px" h="26px" />
-								</li>
-								<!-- Search-box -->
-								<!-- <form class="form-inline my-2 my-lg-0">
-									<input
-										class="form-control mr-sm-2"
-										type="search"
-										placeholder="Search"
-									/>
-								</form> -->
+									<a class="nav-link" v-scroll-to="`#${item.id}`">
+										{{ item.li }}
+									</a>  
+								</li> 
 							</ul>
 						</div>
 					</div>
@@ -71,15 +50,10 @@
 	</div>
 </template>
 
-<script>
-	import MdSearchIcon from "vue-ionicons/dist/md-search.vue";
+<script> 
 
 	export default {
-		name: "Header",
-
-		components: {
-			MdSearchIcon,
-		},
+		name: "Header", 
 
 		data() {
 			return {
