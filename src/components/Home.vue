@@ -10,12 +10,12 @@
 		<Gmap />
 		<Testimonials />
 		<Footer />
-		
+
 		<!--  -->
 		<back-to-top text="Back to top" visibleoffset="500">
 			<MdArrowUpIcon w="40px" h="40px" />
 		</back-to-top>
-		<!--  --> 
+		<!--  -->
 	</div>
 </template>
 
@@ -58,10 +58,10 @@
 		color: #fff;
 		background-color: red;
 		box-shadow: #000 2px 2px 2px;
-		transition: all 300ms ease-in-out ;
-	} 
+		transition: all 300ms ease-in-out;
+	}
 	.vue-back-to-top:hover {
 		color: #000;
-		transform: scale(1.1); 
-	} 
+		transform: scale(1.1);
+	}
 </style>

@@ -1,17 +1,9 @@
 <template>
 	<div id="gallery">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center mt-4">
-					<silent-box :gallery="gallery">
-						<!-- <template v-slot:silentbox-item="{ silentboxItem }"> 
-							<img
-								class="image-fluid"
-								:src="silentboxItem.src"
-								alt="gallery image"
-							/>
-						</template> -->
-						{{ gallery.alt }}
+					<silent-box :gallery="gallery"> 
 					</silent-box>
 				</div>
 			</div>
@@ -35,10 +27,10 @@
 					{
 						src: image1,
 						description:
-							"Star Night Sky Ravine by Mark Basarab, from Unsplash.",
+							"La lala la la laaa la laaaa laaaa lala lala lala laala lalaaaaaaaa",
 						alt: "Blue starry night photo.",
-						thumbnailWidth: "280px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-3'
 					},
 					{
@@ -46,8 +38,8 @@
 						description:
 							"Corno Nero, Italy by Luca Zanon, from Unsplash.",
 						alt: "Landscape photo of mountain with fog.",
-						thumbnailWidth: "600px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-6'
 					},
 					{
@@ -55,8 +47,8 @@
 						description:
 							"Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.",
 						alt: "Low angle photo of pine trees.",
-						thumbnailWidth: "280px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-3'
 					},
 					{
@@ -64,8 +56,8 @@
 						description:
 							"Star Night Sky Ravine by Mark Basarab, from Unsplash.",
 						alt: "Blue starry night photo.",
-						thumbnailWidth: "600px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-6'
 					},
 					{
@@ -73,8 +65,8 @@
 						description:
 							"Corno Nero, Italy by Luca Zanon, from Unsplash.",
 						alt: "Landscape photo of mountain with fog.",
-						thumbnailWidth: "280px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-3'
 					},
 					{
@@ -82,8 +74,8 @@
 						description:
 							"Remote forest path in Gävle, Sweden by Geran de Klerk, from Unsplash.",
 						alt: "Low angle photo of pine trees.",
-						thumbnailWidth: "280px",
-						thumbnailHeight: "230px",
+						thumbnailWidth: "350px",
+						thumbnailHeight: "350px",
 						class: 'col-md-3'
 					},
 				],
@@ -94,12 +86,12 @@
 
 <style>
 	#gallery {
-		background-color: tomato;
+		background-color: whitesmoke;
 		padding: 100px 0;
 		overflow: hidden;
 	}
 	.silentbox-item {
-		max-height: 280px;
+		max-height: 350px;
 		width: auto;
 		border-radius: 0.5rem;
 		margin: 0.5rem;

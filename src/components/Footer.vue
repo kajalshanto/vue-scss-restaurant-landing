@@ -77,7 +77,7 @@
 							Made with
 							<strong>Vue.JS | Vue CLI | Bootstrap </strong> _4.5
 						</p>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
@@ -91,10 +91,9 @@
 		name: "Footer",
 
 		components: {
-			MdPaperPlaneIcon, 
+			MdPaperPlaneIcon,
 		},
-	}; 
-
+	};
 </script>
 
 <style scoped>
@@ -103,19 +102,4 @@
 		outline: 0;
 		box-shadow: 0 0 0 0rem !important;
 	}
-/* 
-	.to-top{
-		position: fixed;
-		right: 25px;
-		bottom: 60px; 
-		color: #fff;
-		background-color: red; 
-		box-shadow: #000 2px 2px 2px;
-		opacity: 0;
-	}
-	.to-top.active{
-		bottom: 60px;
-		pointer-events: auto;
-		opacity: 1;
-	} */
 </style>

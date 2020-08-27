@@ -21,6 +21,9 @@ import Datetime from 'vue-datetime'
 import 'vue-datetime/dist/vue-datetime.css'
 Vue.use(Datetime)
 
+import BackToTop from 'vue-backtotop'
+Vue.use(BackToTop)
+
 //Vue scrool to Plugin
 var VueScrollTo = require('vue-scrollto');
 // You can also pass in the default options
@@ -39,8 +42,6 @@ Vue.use(VueScrollTo, {
 })
 
 
-import BackToTop from 'vue-backtotop'
-Vue.use(BackToTop)
 
 
 //Main CSS prepossed by SCSS
