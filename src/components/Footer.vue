@@ -89,4 +89,9 @@
 	};
 </script>
 
-<style scoped></style>
+<style scoped>
+	.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem !important;
+}
+</style>
