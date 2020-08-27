@@ -10,6 +10,7 @@
 		<Gmap />
 		<Testimonials />
 		<Footer />
+		<go-top></go-top>
 	</div>
 </template>
 
@@ -25,6 +26,7 @@
 	import Testimonials from "./Testimonials";
 	import Footer from "./Footer";
 
+	import GoTop from '@inotom/vue-go-top';
 	export default {
 		name: "Home",
 
@@ -39,6 +41,7 @@
 			Gmap,
 			Testimonials,
 			Footer,
+			GoTop
 		},
 	};
 </script>
