@@ -1,5 +1,19 @@
 <template>
 	<div id="gallery">
+		<div class="container text-center overflow-hidden">
+		<!-- row  -->
+			<div class="row">
+				<!-- Section title  -->
+				<div class="section-title-content col-sm-12 text-center">
+					<h1 class="section-title">
+						Our <span class="title-span">Popular </span>Items
+					</h1> 
+				</div>
+				<!--/. Section title  -->
+			</div>
+			<!--/. row  -->
+		</div>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 text-center mt-4">

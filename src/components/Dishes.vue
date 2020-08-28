@@ -32,7 +32,7 @@
 			<div class="row pt-100">
 				<!-- single featured items -->
 				<div
-					class="col-md-4 col-sm-6 col-12 text-center"
+					class="col-md-4 col-sm-12 text-center"
 					v-for="item in featuredItems"
 					:key="item.id"
 				>

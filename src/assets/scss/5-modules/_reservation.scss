@@ -89,8 +89,8 @@
 
     //add custom color of placeholder
     &::placeholder {
-        color: $font-primary;
-        opacity: 1;
+        color: $font-white;
+        opacity: .8;
     }
 
 
@@ -114,7 +114,11 @@
             border-color: none !important;
 
             &::placeholder {
-                color: $font-primary !important;
+                color: $font-white !important;
+                opacity: .8;
+            }
+
+            &:focus {
                 opacity: 1;
             }
         }

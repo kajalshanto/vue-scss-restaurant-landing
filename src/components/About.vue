@@ -3,7 +3,7 @@
 		<div class="container-fluid"> 
 			<div class="about-content">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12">
 						<div class="about-left">
 							<img
 								class="img-fluid"
@@ -14,7 +14,7 @@
 							/>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-lg-6 col-md-12">
 						<div class="about-right">
 							<h1 class="small-title mb-4">
 								ONLY FOR FOODIES. LIFE IS TOO SHORT FOR AVERAGE
@@ -32,7 +32,7 @@
 								environment. Our generous portions are
 								moderately priced
 							</p>
-							<p class="samll-p">
+							<p class="samll-p hide-mobile">
 								Lorem, ipsum dolor sit amet consectetur
 								adipisicing elit. Repellendus accusamus deserunt
 								eaque optio maiores modi reprehenderit nam

@@ -64,7 +64,7 @@
 					{
 						img: "client-1.jpg",
 						name: "Robert Moghabey",
-						title: "CEO, Ferrari Cars",
+						title: "Manager, Ferrari Cars",
 						says:
 							"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore vitae cupiditate eligendi quisquam quo eum ipsa nemo minima amet, magni obcaecati provident sunt Sed, et enim!",
 					},
@@ -78,7 +78,7 @@
 					{
 						img: "client-3.jpg",
 						name: "Minhaz Faisal",
-						title: "Lead Mentor, Shikbe Shobai",
+						title: "Lead Mentor & CEO, Shikbe Shobai",
 						says:
 							"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore vitae cupiditate eligendi quisquam quo eum ipsa nemo minima amet, magni obcaecati provident sunt deserunt, iste consequatur error enim autem. Sed, et enim!",
 					},
@@ -92,7 +92,7 @@
 					{
 						img: "client-5.jpg",
 						name: "Kabir Sighn",
-						title: "Chairman, Mal Khor",
+						title: "Psychiatrist Specialist",
 						says:
 							"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore vitae cupiditate eligendi quisquam quo eum ipsa nemo minima amet",
 					},

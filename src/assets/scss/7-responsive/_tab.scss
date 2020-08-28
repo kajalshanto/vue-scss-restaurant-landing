@@ -1,0 +1,83 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    // Globals 
+    .section-title {
+        font-size: 32px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    // Hero Section
+    #home {
+        background-size: 110%;
+        background-position: center center;
+    }
+
+    .hero-slider {
+        padding-top: 35%;
+
+        &-content {
+            text-align: left;
+
+            .hero-title {
+                font-size: 45px;
+            }
+
+            p {
+                color: $font-primary;
+                font-weight: 500;
+            }
+
+            .btn-custom {
+                margin-top: 100px;
+            }
+        }
+    }
+
+
+    // Gallery 
+    #silentbox-overlay__description {
+        margin-top: -20px;
+    }
+
+    .silentbox-item {
+        display: inherit !important;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    // Food Enus
+    .sction-bg {
+        height: 100vh;
+    }
+
+    // Reservation
+
+    .reservation-content {
+
+        .reservatin-form {
+            padding: 130px 20px;
+
+            &-title {
+                padding-bottom: 40px;
+            }
+
+            &-area {
+                padding: 30px 0;
+            }
+        }
+    }
+
+
+    // Footer 
+
+    .vue-back-to-top {
+        right: 20px !important;
+        bottom: 80px !important;
+    }
+}

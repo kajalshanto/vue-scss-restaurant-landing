@@ -5,7 +5,7 @@
 				<div class="footer_content">
 					<div class="row">
 						<div
-							class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-start align-items-center footer-single"
+							class="col-md-4 col-sm-12 d-flex justify-content-start align-items-center footer-single"
 						>
 							<img
 								class="img-fluid"
@@ -15,11 +15,11 @@
 								alt="coffee cup"
 							/>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 footer-single">
+						<div class="col-md-4 col-sm-12 footer-single">
 							<h4 class="text-uppercase">contact us</h4>
 							<address class="footer-p">
-								<strong>Adress</strong>
-								:House No 08, Road No 08 Dia Bari, Dhaka
+								<strong>Adress: </strong> 
+								House No 291/8A, Bank Colony, Savar
 							</address>
 							<p class="footer-p">
 								<strong>email :</strong
@@ -27,11 +27,10 @@
 								<a href="#"> demo@gmail.com</a>
 							</p>
 							<p class="footer-p">
-								<strong>phone: </strong> (+660 256 24857) (+660
-								256 24857)
+								<strong>phone:</strong> (+88017XX XXXXXX) (+88015XX XXXXXX)
 							</p>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 footer-single">
+						<div class="col-md-4 col-sm-12 footer-single">
 							<h4 class="text-uppercase">subscribe us</h4>
 							<p class="footer-p mb-25">
 								Nulla tempor, nisl sed bibendum pretium, diam
@@ -74,8 +73,8 @@
 
 					<div class="col-md-6 col-sm-12 text-right py-3 made-with">
 						<p>
-							Made with
-							<strong>Vue.JS | Vue CLI | Bootstrap </strong> _4.5
+							Made with &#x2764; &
+							<strong> Vue.JS | SCSS | Bootstrap_4.5 </strong>
 						</p>
 					</div>
 				</div>

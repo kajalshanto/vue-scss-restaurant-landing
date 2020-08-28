@@ -69,7 +69,7 @@
 							<div
 								v-for="(element, index) in list"
 								:class="[element.category]"
-								class="col-md-6 col-sm-12"
+								class="col-lg-6 col-md-12"
 								:key="index"
 							>
 								<div class="image float-left">

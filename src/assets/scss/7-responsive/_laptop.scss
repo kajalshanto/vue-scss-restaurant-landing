@@ -1,0 +1,67 @@
+// Small Laptop (laptop, 992px and 1023.98)
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    //
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1023.98px) and (max-width: 1199.98px) {
+    // Hero Section 
+
+    .hero-slider {
+        padding-top: 25%;
+
+        &-content {
+            text-align: left;
+
+            .hero-title {
+                font-size: 50px;
+            }
+
+            p {
+                color: $font-primary;
+                font-weight: 500;
+            }
+
+            .btn-custom {
+                margin-top: 100px;
+            }
+        }
+    }
+
+    // About section 
+    .about-content {
+        .about-left {
+            img {
+                min-height: 610px;
+            }
+        }
+
+
+        .about-right {
+
+            //
+            .small-title {
+                font-size: 20px;
+            }
+        }
+    }
+
+    // Reservation
+
+    .reservation-content {
+
+        .reservatin-form {
+            padding: 120px 20px;
+
+            &-title {
+                padding-bottom: 100px;
+            }
+
+            &-area {
+                padding: 0px 40px;
+            }
+        }
+    }
+
+
+}
