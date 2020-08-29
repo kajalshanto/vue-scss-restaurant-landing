@@ -159,18 +159,10 @@
 					{
 						title: "OUTBACK CENTER-CUT SIRLOIN*",
 						details:
-							"Center-cut for tenderness. Lean, hearty and full of flavor. Seasoned and seared.",
+							"Center-cut for tenderness. Lean, hearty and full of flavor.",
 						price: 20.49,
 						category: "steaks",
 						image: "outbreak-center.png",
-					},
-					{
-						title: "GRILLED SHRIMP ON THE BARBIE",
-						details:
-							"Sprinkled with a special blend of seasonings and grilled. Served with grilled artisan bread.",
-						price: 10.99,
-						category: "starter",
-						image: "grilled-shrirmp.png",
 					},
 					{
 						title: "GOLD COAST COCONUT SHRIMP",
@@ -195,6 +187,15 @@
 						price: 14.49,
 						category: "entrees",
 						image: "droven-ribs.png",
+					},
+					
+					{
+						title: "GRILLED SHRIMP ON THE BARBIE",
+						details:
+							"Sprinkled with a special blend of seasonings and grilled. Served with grilled artisan bread.",
+						price: 10.99,
+						category: "starter",
+						image: "grilled-shrirmp.png",
 					},
 					{
 						title: "GRILLED CHICKEN ON THE BARBIE",

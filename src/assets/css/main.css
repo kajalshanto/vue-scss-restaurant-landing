@@ -283,19 +283,20 @@ p {
 
 .footer-botom p {
   font-weight: 400;
-  color: #010101e7;
+  color: #fff;
   max-width: none;
   margin-bottom: 8px;
 }
 
 .footer-botom p a {
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff !important;
   text-decoration: none;
+  opacity: .8;
 }
 
 .footer-botom p a:hover {
-  color: black;
   text-decoration: underline;
+  opacity: 1;
 }
 
 .footer-botom .made-with p {
@@ -739,6 +740,9 @@ p.what_says::after {
   .about-content .about-right .hide-mobile {
     display: none;
   }
+  .sction-bg {
+    height: 100vh !important;
+  }
   .section {
     padding: 100px 0;
   }
@@ -757,7 +761,7 @@ p.what_says::after {
   .section-title-content .menus-content {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 10% 20px;
     border-radius: 18px;
   }
   .isotop {
@@ -765,8 +769,10 @@ p.what_says::after {
     padding-top: 60px;
     padding-bottom: 200px;
     width: 100%;
-    margin-top: -30%;
+    margin-top: -23%;
     clear: both;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .isotop .button {
     margin: 5px 8px;
@@ -776,7 +782,7 @@ p.what_says::after {
     padding: 20px 0px;
   }
   .isotop .element-item {
-    padding: 0px 10px;
+    padding: 15px 10px;
     margin-bottom: 25px;
     box-sizing: border-box;
     overflow: hidden;
@@ -784,6 +790,9 @@ p.what_says::after {
   .isotop .element-item .menu-content {
     padding-left: 12px;
     text-align: left !important;
+  }
+  .isotop .element-item .name {
+    margin-bottom: 4px !important;
   }
   #silentbox-overlay__description {
     margin-top: -90px;
@@ -893,6 +902,34 @@ p.what_says::after {
     width: 20px;
     height: 15px;
     margin-top: -10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .pt-120 {
+    padding-top: 60px;
+  }
+  .section-title-content .menus-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    padding: 10% 20px;
+    border-radius: 18px;
+  }
+  .isotop {
+    margin-top: -12%;
+  }
+  .isotop .button {
+    margin: 5px 8px;
+    font-size: 14px;
+  }
+  .isotop .isotop-menus {
+    padding: 20px 0px;
+  }
+  .menus-content img {
+    width: 50px !important;
+  }
+  .isotop .element-item .fixed {
+    overflow: unset;
   }
 }
 

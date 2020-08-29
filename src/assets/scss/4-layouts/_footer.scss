@@ -85,18 +85,19 @@
 
     p {
         font-weight: 400;
-        color: $theme-dark;
+        color: $font-white;
         max-width: none;
         margin-bottom: 8px;
 
 
         a {
-            color: rgba(0, 0, 0, .8);
+            color: #fff !important;
             text-decoration: none;
+            opacity: .8;
 
             &:hover {
-                color: rgba(0, 0, 0, 1);
                 text-decoration: underline;
+                opacity: 1;
             }
         }
     }

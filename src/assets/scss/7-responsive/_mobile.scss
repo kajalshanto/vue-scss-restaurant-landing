@@ -82,6 +82,9 @@
 
 
     // Dishes 
+    .sction-bg {
+        height: 100vh !important;
+    }
 
     .section {
         padding: 100px 0;
@@ -108,7 +111,7 @@
         .menus-content {
             background-color: rgba(0, 0, 0, 0.6);
             margin: 0 auto;
-            padding: 50px 20px;
+            padding: 10% 20px;
             border-radius: 18px;
         }
     }
@@ -118,8 +121,10 @@
         padding-top: 60px;
         padding-bottom: 200px;
         width: 100%;
-        margin-top: -30%;
+        margin-top: -23%;
         clear: both;
+        overflow: hidden;
+        box-sizing: border-box;
 
         .button {
             margin: 5px 8px;
@@ -131,7 +136,7 @@
         }
 
         .element-item {
-            padding: 0px 10px;
+            padding: 15px 10px;
             margin-bottom: 25px;
             box-sizing: border-box;
             overflow: hidden;
@@ -139,6 +144,10 @@
             .menu-content {
                 padding-left: 12px;
                 text-align: left !important;
+            }
+
+            .name {
+                margin-bottom: 4px !important;
             }
         }
     }
@@ -181,35 +190,6 @@
         }
     }
 
-
-    // Vue date time picker styles
-    // .form-group {
-    //     position: relative;
-
-    //     .vdatetime {
-    //         input {
-    //             position: absolute;
-    //             // color: $font-primary !important;
-    //             background-color: transparent !important;
-    //             width: 100%;
-    //             top: 7px;
-    //             margin: 0em;
-    //             font: inherit;
-    //             padding: -100px 0 0 0;
-    //             border-width: 0px;
-    //             border-color: none !important;
-
-    //             &::placeholder {
-    //                 color: $font-white !important;
-    //                 opacity: .8;
-    //             }
-
-    //             &:focus {
-    //                 opacity: 1;
-    //             }
-    //         }
-    //     }
-    // }
 
     // Testimonials 
     #slider {
@@ -319,4 +299,45 @@
             margin-top: -10px;
         }
     }
+}
+
+@media (max-width: 320px) {
+
+    // Food Enus
+    .pt-120 {
+        padding-top: 60px;
+    }
+
+    .section-title-content {
+        .menus-content {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 0 auto;
+            padding: 10% 20px;
+            border-radius: 18px;
+        }
+    }
+
+    .isotop {
+        margin-top: -12%;
+
+        .button {
+            margin: 5px 8px;
+            font-size: 14px;
+        }
+
+        .isotop-menus {
+            padding: 20px 0px;
+        }
+    }
+
+    .menus-content {
+        img {
+            width: 50px !important;
+        }
+    }
+
+    .isotop .element-item .fixed {
+        overflow: unset;
+    }
+
 }
