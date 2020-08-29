@@ -685,6 +685,113 @@ p.what_says::after {
   opacity: .8;
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section-title {
+    font-size: 32px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  #home {
+    background-size: 110%;
+    background-position: center center;
+  }
+  .hero-slider {
+    padding-top: 35%;
+  }
+  .hero-slider-content {
+    text-align: left;
+  }
+  .hero-slider-content .hero-title {
+    font-size: 45px;
+  }
+  .hero-slider-content p {
+    color: #333;
+    font-weight: 500;
+  }
+  .hero-slider-content .btn-custom {
+    margin-top: 100px;
+  }
+  .section-title-content .menus-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    padding: 10% 20px;
+    border-radius: 18px;
+  }
+  .isotop {
+    margin-top: -23%;
+  }
+  #silentbox-overlay__description {
+    margin-top: -20px;
+  }
+  .silentbox-item {
+    display: inherit !important;
+  }
+  .silentbox-item img {
+    width: 100%;
+  }
+  .sction-bg {
+    height: 100vh;
+  }
+  .reservation-opening {
+    margin-bottom: 40px;
+  }
+  .reservation-content .reservatin-form {
+    padding: 130px 20px;
+  }
+  .reservation-content .reservatin-form-title {
+    padding-bottom: 40px;
+  }
+  .reservation-content .reservatin-form-area {
+    padding: 30px 0;
+  }
+  #footer {
+    color: white;
+    background-color: black;
+    overflow: hidden;
+  }
+  .footer_content {
+    padding: 80px 0;
+  }
+  .footer_content .footer-single {
+    margin-bottom: 26px;
+    float: none !important;
+    padding: 10px 40px;
+  }
+  .footer_content .footer-single img {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .footer_content .footer-single h4 {
+    font-size: 22px;
+  }
+  .footer_content .footer-single .footer-p {
+    font-size: 14px;
+  }
+  .footer-botom {
+    background-color: #ff0000;
+  }
+  .footer-botom p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer-botom .made-with p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .vue-back-to-top {
+    height: 20px !important;
+    width: 20px !important;
+    right: 8px !important;
+    bottom: 80px !important;
+  }
+  .vue-back-to-top .ion {
+    width: 20px;
+    height: 15px;
+    margin-top: -10px;
+  }
+}
+
 /* Mobile Responsive */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
